@@ -68,8 +68,8 @@ export default function Navigation() {
 
         {/* Mobile Menu */}
         {mobileMenuOpen && (
-          <div className="md:hidden mt-6 pb-6 space-y-4 animate-fade-in">
-            <Link href="/" className="block text-sm tracking-wider hover:text-gold-500 transition-colors">
+          <div className="md:hidden mt-6 pb-6 space-y-4 animate-fade-in bg-luxury-black/95 backdrop-blur-sm -mx-6 px-6 border-t border-gray-800">
+            <Link href="/" className="block text-sm tracking-wider hover:text-gold-500 transition-colors pt-4">
               HOME
             </Link>
             <Link href="/properties" className="block text-sm tracking-wider hover:text-gold-500 transition-colors">
