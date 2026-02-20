@@ -20,7 +20,7 @@ export const mockProperties: Property[] = [
     beds: 6,
     baths: 7,
     sqft: '12,450',
-    image: 'data:image/svg+xml,%3Csvg width="800" height="600" xmlns="http://www.w3.org/2000/svg"%3E%3Crect width="800" height="600" fill="%232a2a2a"/%3E%3Ctext x="50%25" y="50%25" font-size="32" fill="%23d4af37" text-anchor="middle" dominant-baseline="middle"%3EWaterfront Estate%3C/text%3E%3C/svg%3E',
+    image: 'https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=1600&q=80',
     featured: true,
   },
   {
@@ -31,7 +31,7 @@ export const mockProperties: Property[] = [
     beds: 5,
     baths: 6,
     sqft: '10,200',
-    image: 'data:image/svg+xml,%3Csvg width="800" height="600" xmlns="http://www.w3.org/2000/svg"%3E%3Crect width="800" height="600" fill="%232a2a2a"/%3E%3Ctext x="50%25" y="50%25" font-size="32" fill="%23d4af37" text-anchor="middle" dominant-baseline="middle"%3EColonial Mansion%3C/text%3E%3C/svg%3E',
+    image: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=80',
     featured: true,
   },
   {
@@ -42,7 +42,7 @@ export const mockProperties: Property[] = [
     beds: 5,
     baths: 5,
     sqft: '8,900',
-    image: 'data:image/svg+xml,%3Csvg width="800" height="600" xmlns="http://www.w3.org/2000/svg"%3E%3Crect width="800" height="600" fill="%232a2a2a"/%3E%3Ctext x="50%25" y="50%25" font-size="32" fill="%23d4af37" text-anchor="middle" dominant-baseline="middle"%3ELuxury Villa%3C/text%3E%3C/svg%3E',
+    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80',
     featured: true,
   },
 ]

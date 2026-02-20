@@ -85,7 +85,10 @@ function getMockMLSData(params: MLSSearchParams): MLSProperty[] {
       sqft: 12450,
       propertyType: 'Single Family',
       description: 'Stunning waterfront estate with private dock',
-      images: [],
+      images: [
+        'https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1600&q=80',
+        'https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1600&q=80',
+      ],
       mlsNumber: 'MI123456',
       listDate: '2026-01-01',
       status: 'active',
@@ -104,7 +107,10 @@ function getMockMLSData(params: MLSSearchParams): MLSProperty[] {
       sqft: 10200,
       propertyType: 'Single Family',
       description: 'Elegant colonial mansion with guest house',
-      images: [],
+      images: [
+        'https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1600&q=80',
+        'https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=1600&q=80',
+      ],
       mlsNumber: 'MI789012',
       listDate: '2026-01-05',
       status: 'active',

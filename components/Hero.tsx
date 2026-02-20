@@ -4,7 +4,11 @@ export default function Hero() {
       {/* Background with Overlay */}
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-b from-luxury-black/70 via-luxury-black/50 to-luxury-black z-10" />
-        <div className="w-full h-full bg-luxury-charcoal" />
+        <img
+          src="https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=2200&q=80"
+          alt="Luxury mansion exterior"
+          className="w-full h-full object-cover"
+        />
       </div>
 
       {/* Content */}
